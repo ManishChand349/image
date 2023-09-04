@@ -22,10 +22,10 @@ function ImageDetails() {
     return <div>Loading....</div>;
   }
   return (
-    <div className="flex flex-col ">
-      <img className="" src={photo.url} alt={`${photo.title} image`} />
+    <div className="flex bg-blue-500 justify-center">
+      <img className="w-[50%] p-6 rounded-lg" src={photo.url} alt={`${photo.title} image`} />
       <div>
-        <h2 className="font-bold">{photo.title}</h2>
+        <h2 className="font-bold text-white pt-20">{photo.title}</h2>
         <p>{photo.description}</p>
       </div>
     </div>
